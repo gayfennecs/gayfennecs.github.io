@@ -39,7 +39,25 @@
     font-family: "Lucida Console";
     width:690px;
     background-color:#f5a6d5;
+    font-size:150%
+  }
+
+   .font4 {
+    border-style: inset;
+    border-color: #f7a8c9;
+    font-family: "Lucida Console";
+    width:auto;
+    background-color:#f5a6d5;
     font-size:130%
+  }
+  
+    .font5 {
+    border-style: inset;
+    border-color: #f7a8c9;
+    font-family: "Lucida Console";
+    width:auto;
+    background-color:#f5a6d5;
+    font-size:150%
   }
   
    .box {
@@ -64,7 +82,8 @@
     border-bottom: inset;
     border-color: #f7a8c9;
     text-align:center;
-    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     margin:50px;
     background-color:rgba(245, 166, 213, 0.00);
   }
@@ -75,9 +94,16 @@
     background-color:#f5a6d5;
     font-family: "Lucida Console";
     text-align:center;
-    float:right;
     width: 206px;
-
+ }
+   .art2 {
+    border-style: inset;
+    border-color: #f7a8c9;
+    background-color:#f5a6d5;
+    font-family: "Lucida Console";
+    text-align:center;
+    width: 206px;
+    font-size:110%;
  }
    .inset {
     border-style: inset;
@@ -87,10 +113,22 @@
    box-sizing: border-box;
  }
    .column {
-   float: left;
+    float: left;
     width: 50%;
     padding: 5px;
   }
+
+   .column2 {
+    float: left;
+    width: 10%;
+    padding: 5px;
+  }
+
+   .column3 {
+    float: center;
+    width: 25%;
+    padding: 5px;
+ }
   
    .row {
    display: flex;
